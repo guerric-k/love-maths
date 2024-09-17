@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", function() {
     //"let button of buttons" is similar to using the iterations of i=0; i<element.longth; i++
     for (let button of buttons){
         button.addEventListener("click", function(){
-            if (this.getAttribute("data type")==="submit"){
+            if (this.getAttribute("data-type")==="submit"){
                 alert("You clicked submit!");   
             }else {
-                let gametype = this.getAttribute("data-type");
+                let gameType = this.getAttribute("data-type");
                 alert("You clicked $(gameType");
             }
 })
