@@ -102,6 +102,7 @@ body {
 .btn--big {
     padding-top: 10px;
     border-radius: 50%;
+    background-color: white;
     border: 10px solid;
     width: 100px;
     height: 100px;
